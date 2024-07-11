@@ -27,6 +27,8 @@ nav {
     background-color: black;
     font-family: "Titillium Web", sans-serif;
     color: aliceblue;
+    
+    
 }
 /* centrado y ajuste de fuente */
 #QUIENES_SOMOS h4 {
@@ -37,8 +39,10 @@ nav {
 }
 #QUIENES_SOMOS i {
  background-color: #4a97a8;
- 
+ display: block;
+ margin: 0%;
 }
+
 /* centrado y ajuste de fuente en seccion destacados*/
 
 #DESTACADOS{
@@ -59,5 +63,36 @@ nav {
     font-family: "Titillium Web", sans-serif;
     text-align:left;
     font-size: small;
+}
 
+/* Ajustes formulario contacto*/
+
+#CONTACTO {
+    background-color: black;
+    font-family: "Titillium Web", sans-serif;
+    color: white;
+ }
+#CONTACTO h4{
+    text-align: center;
+    color: white;
+}
+form{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+#CONTACTO button{
+    background-color: rgb(64, 210, 224);
+    font-weight: 400;
+}
+/* Ajustes footer*/
+footer{
+    background-color:  rgb(64, 210, 224);
+    padding: 3%;
+}
+
+footer ,col {
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    font-size: 25pt;
 }
