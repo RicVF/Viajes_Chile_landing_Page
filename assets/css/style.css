@@ -19,7 +19,8 @@ nav a {
 /* Convertir navbar a una transparente */
 /* No se como transparentar la barra, se dejò con un color similar */
 nav {
-    background: #4a97a8;
+    background: #4a97a828;
+    z-index: 1;
 }
 
 /* Ajustado a negro el color de fondo */
@@ -38,7 +39,7 @@ nav {
     padding: 2%;
 }
 #QUIENES_SOMOS i {
- background-color: #4a97a8;
+ background-color: rgb(64, 210, 224);
  display: block;
  margin: 0%;
 }
@@ -96,3 +97,4 @@ footer ,col {
     font-family: "Titillium Web", sans-serif;
     font-size: 25pt;
 }
+
