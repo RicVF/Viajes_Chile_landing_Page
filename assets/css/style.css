@@ -1,0 +1,63 @@
+/* Fuente */
+body { 
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+  }
+
+/* ajuste color, tamaño y peso de fuente "viajes chile" */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20pt;
+    font-weight: 400;
+    margin-left: 0%;
+    font-family: "Titillium Web", sans-serif;
+    }
+
+/* Convertir navbar a una transparente */
+/* No se como transparentar la barra, se dejò con un color similar */
+nav {
+    background: #4a97a8;
+}
+
+/* Ajustado a negro el color de fondo */
+#QUIENES_SOMOS {
+    background-color: black;
+    font-family: "Titillium Web", sans-serif;
+    color: aliceblue;
+}
+/* centrado y ajuste de fuente */
+#QUIENES_SOMOS h4 {
+    text-align: center;
+    color: aliceblue;
+    font-family: "Titillium Web", sans-serif;
+    padding: 2%;
+}
+#QUIENES_SOMOS i {
+ background-color: #4a97a8;
+ 
+}
+/* centrado y ajuste de fuente en seccion destacados*/
+
+#DESTACADOS{
+    background-color: black;
+    color: aliceblue;
+    font-family: "Titillium Web", sans-serif;
+    padding: 5%;
+    
+}
+
+#DESTACADOS h4{
+    text-align: center;
+    background-color: black;
+}
+#DESTACADOS .card-body{
+    background-color: rgb(64, 210, 224);
+    color: white;
+    font-family: "Titillium Web", sans-serif;
+    text-align:left;
+    font-size: small;
+
+}
