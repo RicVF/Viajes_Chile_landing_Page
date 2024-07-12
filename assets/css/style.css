@@ -14,14 +14,15 @@ nav a {
     font-weight: 400;
     margin-left: 0%;
     font-family: "Titillium Web", sans-serif;
+    
     }
 
 /* Convertir navbar a una transparente */
 /* No se como transparentar la barra, se dejò con un color similar */
-nav {
-    background: #4a97a828;
-    z-index: 1;
+nav.navbar.navbar-expand-lg {
+    background: #ddf1f77d;
 }
+
 
 /* Ajustado a negro el color de fondo */
 #QUIENES_SOMOS {
@@ -39,7 +40,7 @@ nav {
     padding: 2%;
 }
 #QUIENES_SOMOS i {
- background-color: rgb(64, 210, 224);
+ background-color:rgb(64, 210, 224);
  display: block;
  margin: 0%;
 }
@@ -64,6 +65,16 @@ nav {
     font-family: "Titillium Web", sans-serif;
     text-align:left;
     font-size: small;
+}
+.card{
+    transition: width 2s, height 4s;
+    width: 200px !important;
+    height: 325px !important;
+    
+}
+.card:hover{
+    width: 260px !important;
+    height: 350px !important;
 }
 
 /* Ajustes formulario contacto*/
@@ -97,4 +108,3 @@ footer ,col {
     font-family: "Titillium Web", sans-serif;
     font-size: 25pt;
 }
-
